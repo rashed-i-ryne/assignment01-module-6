@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.common-btn{
+    background-color: #2554d7;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu ul{
+    display: flex;
+    
+}
+.nav-menu li{
+    list-style: none;
+    
+}
+.nav-menu ul li{
+    justify-content: space-between;
+}
