@@ -4,17 +4,32 @@
     
 }
 .common-btn{
-    background-color: #2554d7;
+    background-color: #1D4ED8;
     color: white;
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 12px 12px;
     cursor: pointer;
+    font-size: 1rem;
+    border: none;
 }
 .common-btn:hover{
     background-color: white;
-    color: #2554d7;
-    border: 1px solid #2554d7;
-    padding: 5px 15px;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+}
+.large-common-btn{
+     background-color: #1D4ED8;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 12px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+}
+.large-common-btn:hover{
+    background-color: white;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
 }
 .container{
     max-width: 1140px;
@@ -46,5 +61,41 @@
 }
 
 .nav-menu li a:hover{
-    color: #2554d7;
+    color: #1D4ED8;
+}
+
+.hero-parent{
+    background-image: url('./assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 786px;
+}
+
+.hero-content{
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 300px 0;
+    padding: 100px;
+} 
+
+.hero-content h1{
+    font-size: 80px;
+}
+#italic-h1{
+    font-style: italic;
+}
+.hero-content p{
+    font-size: 22px;
+
+}
+
+.isoloted-text{
+    background-color: rgba(0, 0, 0, 0.65);
+
 }
