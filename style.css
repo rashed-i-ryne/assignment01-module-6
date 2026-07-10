@@ -7,21 +7,44 @@
     background-color: #2554d7;
     color: white;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.common-btn:hover{
+    background-color: white;
+    color: #2554d7;
+    border: 1px solid #2554d7;
+    padding: 5px 15px;
+}
+.container{
+    max-width: 1140px;
+    margin: 20px auto;
 }
 
 .nav-parent{
     display: flex;
     justify-content: space-between;
+    
 }
+
 .nav-menu ul{
     display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
     
+
 }
 .nav-menu li{
-    list-style: none;
     
 }
-.nav-menu ul li{
-    justify-content: space-between;
+
+.nav-menu li a{
+    text-decoration: none;
+    color: rgb(130, 130, 130);
+    font-size: 1.2rem;
+}
+
+.nav-menu li a:hover{
+    color: #2554d7;
 }
