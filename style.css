@@ -190,3 +190,80 @@
     margin: 0;
     line-height: 1.4;
 }
+
+
+/* Subscription card Section */
+
+.secure-spot-parent{
+  max-width: 1140px;
+  margin: 80px auto;
+  padding: 0 20px;
+
+}
+
+.pricing-header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    line-height: 1.8;
+}
+
+.heading-text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #0a0a0a;
+}
+
+.heading-description{
+    color: #575757;
+    font-size: 16px;
+}
+.subscription-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.subscription-card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border: 1px solid #a4a4a4;
+    border-radius: 12px;
+    padding: 40px 30px;
+
+}
+
+.subscription-card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 40px 30px;
+    
+}
+..subscription-card-2 ul li{
+    color: #949494;
+    list-style: circle;
+    
+}
+
+.subscription-card-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F8F9FB;
+    border: 1px solid #949494;
+    border-radius: 12px;
+    padding: 40px 30px;
+
+
+}
