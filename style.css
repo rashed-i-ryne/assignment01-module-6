@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
     
 }
@@ -224,7 +225,7 @@
 }
 .designation {
     font-size: 14px;
-    color: #aaaaaa; /* Soft muted neutral text slate color */
+    color: #aaaaaa;
     margin: 0;
     line-height: 1.4;
 }
@@ -373,7 +374,7 @@
 }
 
 
-/* Frequently Asked Question */
+/* Frequently Asked Question Section */
 
 .faq-container {
   max-width: 600px;
@@ -449,7 +450,7 @@
   padding-bottom: 1.25rem;
 }
 
-/* When checkbox is checked: Rotate the arrow */
+
 .faq-toggle:checked ~ .faq-title .faq-arrow {
   transform: rotate(180deg);
   color: #2563eb;
