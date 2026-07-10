@@ -371,3 +371,86 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+/* Frequently Asked Question */
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.faq-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr; 
+  row-gap: 0px; 
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+
+.faq-toggle {
+  display: none; 
+}
+
+
+.faq-title {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  align-items: center;
+  padding: 1.25rem 0;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.faq-arrow {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  transition: transform 0.2s ease;
+}
+
+
+.faq-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.2s ease-out, padding 0.2s ease-out;
+  overflow: hidden;
+  padding: 0;
+}
+
+.faq-content p {
+  margin: 0;
+  min-height: 0;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+
+.faq-toggle:checked ~ .faq-content {
+  grid-template-rows: 1fr; 
+  padding-bottom: 1.25rem;
+}
+
+/* When checkbox is checked: Rotate the arrow */
+.faq-toggle:checked ~ .faq-title .faq-arrow {
+  transform: rotate(180deg);
+  color: #2563eb;
+}

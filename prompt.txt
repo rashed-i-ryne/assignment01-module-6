@@ -1,0 +1,6 @@
+After adding the UI picture to the chat bot-
+I give the below prompts:
+
+1. based on the given website ideas, give me five best ideas that can be added to the website . of course they must be highly related but missing in the website given in the message
+
+2.based on the discussion we have give the code for these two section with proper requirments whatever needed Frequently Asked Questions (FAQ) i need visual representataion related with the given picture where part was missing.
